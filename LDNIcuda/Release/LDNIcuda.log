@@ -1,0 +1,271 @@
+﻿  
+  D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile      -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o Release\LDNIcudaContouring.cu.obj "D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda\LDNIcudaContouring.cu" -clean 
+  LDNIcudaContouring.cu
+  
+  D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile      -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o Release\LDNIcudaNormalProcessing.cu.obj "D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda\LDNIcudaNormalProcessing.cu" -clean 
+  LDNIcudaNormalProcessing.cu
+  
+  D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile      -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o Release\LDNIcudaOffsetting.cu.obj "D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda\LDNIcudaOffsetting.cu" -clean 
+  LDNIcudaOffsetting.cu
+  
+  D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile      -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o Release\LDNIcudaOffsettingByHashing.cu.obj "D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda\LDNIcudaOffsettingByHashing.cu" -clean 
+  LDNIcudaOffsettingByHashing.cu
+  
+  D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile      -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o Release\LDNIcudaOperation.cu.obj "D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda\LDNIcudaOperation.cu" -clean 
+  LDNIcudaOperation.cu
+  
+  D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile      -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o Release\LDNIcudaSolid.cu.obj "D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda\LDNIcudaSolid.cu" -clean 
+  LDNIcudaSolid.cu
+  Compiling CUDA source file LDNIcudaContouring.cu...
+  Compiling CUDA source file LDNIcudaNormalProcessing.cu...
+  Compiling CUDA source file LDNIcudaOffsetting.cu...
+  Compiling CUDA source file LDNIcudaOffsettingByHashing.cu...
+  Compiling CUDA source file LDNIcudaSolid.cu...
+  Compiling CUDA source file LDNIcudaOperation.cu...
+  
+  D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o Release\LDNIcudaContouring.cu.obj "D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda\LDNIcudaContouring.cu" 
+  
+  D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o Release\LDNIcudaSolid.cu.obj "D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda\LDNIcudaSolid.cu" 
+  
+  
+  D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o Release\LDNIcudaOffsettingByHashing.cu.obj "D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda\LDNIcudaOffsettingByHashing.cu" 
+  D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o Release\LDNIcudaOffsetting.cu.obj "D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda\LDNIcudaOffsetting.cu" 
+  
+  D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o Release\LDNIcudaOperation.cu.obj "D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda\LDNIcudaOperation.cu" 
+  
+  D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o Release\LDNIcudaNormalProcessing.cu.obj "D:\Debbie\GitHub\LDNIsource\LDNI Source\LDNIcuda\LDNIcudaNormalProcessing.cu" 
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaNormalProcessing.cu(123): warning : loop is not reachable
+d:\debbie\github\ldnisource\ldni source\ldnicuda\LDNIcudaSolid.h(42): warning C4005: 'MAX' : macro redefinition
+d:\debbie\github\ldnisource\ldni source\ldnicuda\LDNIcudaSolid.h(43): warning C4005: 'MIN' : macro redefinition
+d:\debbie\github\ldnisource\ldni source\ldnicuda\LDNIcudaSolid.h(42): warning C4005: 'MAX' : macro redefinition
+d:\debbie\github\ldnisource\ldni source\ldnicuda\LDNIcudaSolid.h(43): warning C4005: 'MIN' : macro redefinition
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(325): warning : unrecognized character escape sequence
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(329): warning : unrecognized character escape sequence
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(256): warning : variable "distortError" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(257): warning : variable "smoothErrorCoef" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(258): warning : variable "VSAiter" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(259): warning : variable "simpRatio" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(261): warning : variable "movementCoef" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(288): warning : variable "range" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(451): warning : unrecognized character escape sequence
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(399): warning : variable "distortError" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(400): warning : variable "smoothErrorCoef" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(401): warning : variable "VSAiter" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(402): warning : variable "simpRatio" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(404): warning : variable "movementCoef" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(406): warning : variable "supportingSize" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(430): warning : variable "range" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(498): warning : variable "distortRatio" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(507): warning : variable "scalefactor" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(535): warning : variable "distortError" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaOffsetting.cu(965): warning : variable "rr" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(536): warning : variable "smoothErrorCoef" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(537): warning : variable "VSAiter" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(538): warning : variable "simpRatio" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(540): warning : variable "movementCoef" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(542): warning : variable "supportingSize" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(566): warning : variable "range" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1086): warning : variable "result" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1223): warning : variable "regionNum" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1443): warning : variable "j" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1675): warning : variable "j" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1933): warning : variable "realT" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1961): warning : variable "st" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2121): warning : variable "phase3Band" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2215): warning : variable "phase3Band" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2419): warning : variable "nodenum" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2655): warning : variable "i" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2655): warning : variable "j" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2922): warning : variable "ind" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2971): warning : variable "ind" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3037): warning : variable "ix" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaOperation.cu(2433): warning : variable "numA" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3037): warning : variable "iz" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaOperation.cu(2713): warning : variable "bCube" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3038): warning : variable "localID" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaOperation.cu(2715): warning : variable "i" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3060): warning : variable "st" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3443): warning : variable "iz" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3443): warning : variable "id" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3443): warning : variable "st" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3445): warning : variable "node" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3621): warning : variable "ix" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3621): warning : variable "iz" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3642): warning : variable "id" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3643): warning : variable "node" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3679): warning : variable "node" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3783): warning : variable "ix" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3783): warning : variable "iz" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3784): warning : variable "node" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3785): warning : variable "idx" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3785): warning : variable "idz" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3815): warning : variable "node" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3866): warning : variable "node" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4454): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4454): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4491): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4491): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4510): warning : variable "ix" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4510): warning : variable "iz" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4550): warning : variable "iz" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4571): warning : variable "ix" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4571): warning : variable "iz" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4767): warning : variable "i" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4767): warning : variable "j" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(5450): warning : variable "num" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(5450): warning : variable "st" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(5455): warning : variable "k" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(5957): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(5958): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(5959): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(6545): warning : statement is unreachable
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaNormalProcessing.cu(123): warning : loop is not reachable
+  LDNIcudaNormalProcessing.cu
+  LDNIcudaSolid.cu
+d:\debbie\github\ldnisource\ldni source\ldnicuda\LDNIcudaSolid.h(42): warning C4005: 'MAX' : macro redefinition
+d:\debbie\github\ldnisource\ldni source\ldnicuda\LDNIcudaSolid.h(43): warning C4005: 'MIN' : macro redefinition
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaOperation.cu(2433): warning : variable "numA" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaOperation.cu(2713): warning : variable "bCube" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaOperation.cu(2715): warning : variable "i" was declared but never referenced
+  LDNIcudaOperation.cu
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaOffsetting.cu(965): warning : variable "rr" was set but never used
+  LDNIcudaOffsetting.cu
+  LDNIcudaOffsettingByHashing.cu
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaOperation.cu(542): warning C4018: '<' : signed/unsigned mismatch
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaOperation.cu(638): warning C4018: '<' : signed/unsigned mismatch
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaOperation.cu(2715): warning C4101: 'i' : unreferenced local variable
+d:\debbie\github\ldnisource\ldni source\ldnicuda\LDNIcudaSolid.h(42): warning C4005: 'MAX' : macro redefinition
+d:\debbie\github\ldnisource\ldni source\ldnicuda\LDNIcudaSolid.h(43): warning C4005: 'MIN' : macro redefinition
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(325): warning : unrecognized character escape sequence
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(329): warning : unrecognized character escape sequence
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(256): warning : variable "distortError" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(257): warning : variable "smoothErrorCoef" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(258): warning : variable "VSAiter" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(259): warning : variable "simpRatio" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(261): warning : variable "movementCoef" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(288): warning : variable "range" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(451): warning : unrecognized character escape sequence
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(399): warning : variable "distortError" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(400): warning : variable "smoothErrorCoef" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(401): warning : variable "VSAiter" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(402): warning : variable "simpRatio" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(404): warning : variable "movementCoef" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(406): warning : variable "supportingSize" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(430): warning : variable "range" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(498): warning : variable "distortRatio" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(507): warning : variable "scalefactor" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(535): warning : variable "distortError" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(536): warning : variable "smoothErrorCoef" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(537): warning : variable "VSAiter" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(538): warning : variable "simpRatio" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(540): warning : variable "movementCoef" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(542): warning : variable "supportingSize" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(566): warning : variable "range" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1086): warning : variable "result" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1223): warning : variable "regionNum" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1443): warning : variable "j" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1675): warning : variable "j" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1933): warning : variable "realT" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1961): warning : variable "st" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2121): warning : variable "phase3Band" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2215): warning : variable "phase3Band" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2419): warning : variable "nodenum" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2655): warning : variable "i" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2655): warning : variable "j" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2922): warning : variable "ind" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2971): warning : variable "ind" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3037): warning : variable "ix" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3037): warning : variable "iz" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3038): warning : variable "localID" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3060): warning : variable "st" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3443): warning : variable "iz" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3443): warning : variable "id" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3443): warning : variable "st" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3445): warning : variable "node" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3621): warning : variable "ix" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3621): warning : variable "iz" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3642): warning : variable "id" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3643): warning : variable "node" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3679): warning : variable "node" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3783): warning : variable "ix" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3783): warning : variable "iz" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3784): warning : variable "node" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3785): warning : variable "idx" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3785): warning : variable "idz" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3815): warning : variable "node" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(3866): warning : variable "node" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4454): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4454): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4491): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4491): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4510): warning : variable "ix" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4510): warning : variable "iz" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4550): warning : variable "iz" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4571): warning : variable "ix" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4571): warning : variable "iz" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4767): warning : variable "i" was set but never used
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(4767): warning : variable "j" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(5450): warning : variable "num" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(5450): warning : variable "st" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(5455): warning : variable "k" was declared but never referenced
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(5957): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(5958): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(5959): warning : pointless comparison of unsigned integer with zero
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(6545): warning : statement is unreachable
+  LDNIcudaContouring.cu
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(288): warning C4101: 'range' : unreferenced local variable
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(430): warning C4101: 'range' : unreferenced local variable
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(566): warning C4101: 'range' : unreferenced local variable
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(669): warning C4018: '<' : signed/unsigned mismatch
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(672): warning C4018: '<' : signed/unsigned mismatch
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1443): warning C4101: 'j' : unreferenced local variable
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1675): warning C4101: 'j' : unreferenced local variable
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(1961): warning C4101: 'st' : unreferenced local variable
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2655): warning C4101: 'i' : unreferenced local variable
+D:/Debbie/GitHub/LDNIsource/LDNI Source/LDNIcuda/LDNIcudaContouring.cu(2655): warning C4101: 'j' : unreferenced local variable
+  LDNIcpuOperation.cpp
+LDNIcpuOperation.cpp(49): warning C4005: 'MAX' : macro redefinition
+          d:\debbie\github\ldnisource\ldni source\ldnicuda\../GLKLib/GLKGeometry.h(42) : see previous definition of 'MAX'
+LDNIcpuOperation.cpp(50): warning C4005: 'MIN' : macro redefinition
+          d:\debbie\github\ldnisource\ldni source\ldnicuda\../GLKLib/GLKGeometry.h(41) : see previous definition of 'MIN'
+  LDNIcpuSolid.cpp
+  LDNIDataBoard.cpp
+  main.cpp
+d:\debbie\github\ldnisource\ldni source\ldnicuda\LDNIcudaSolid.h(42): warning C4005: 'MAX' : macro redefinition
+          d:\debbie\github\ldnisource\ldni source\ldnicuda\../GLKLib/GLKGeometry.h(42) : see previous definition of 'MAX'
+d:\debbie\github\ldnisource\ldni source\ldnicuda\LDNIcudaSolid.h(43): warning C4005: 'MIN' : macro redefinition
+          d:\debbie\github\ldnisource\ldni source\ldnicuda\../GLKLib/GLKGeometry.h(41) : see previous definition of 'MIN'
+  PMBody.cpp
+PMBody.cpp(326): warning C4101: 'normalArray' : unreferenced local variable
+PMBody.cpp(326): warning C4101: 'vertexArray' : unreferenced local variable
+PMBody.cpp(817): warning C4101: 'ver' : unreferenced local variable
+PMBody.cpp(814): warning C4101: 'getline2' : unreferenced local variable
+PMBody.cpp(816): warning C4101: 'fields' : unreferenced local variable
+PMBody.cpp(939): warning C4101: 'i' : unreferenced local variable
+PMBody.cpp(936): warning C4101: 'ver' : unreferenced local variable
+PMBody.cpp(1307): warning C4101: 'endnode' : unreferenced local variable
+PMBody.cpp(1306): warning C4101: 'startnode' : unreferenced local variable
+PMBody.cpp(1311): warning C4101: 'edgevec' : unreferenced local variable
+PMBody.cpp(1310): warning C4101: 'endnodecoord' : unreferenced local variable
+PMBody.cpp(1312): warning C4101: 'resultnormal' : unreferenced local variable
+PMBody.cpp(1301): warning C4101: 'tempdistterror' : unreferenced local variable
+PMBody.cpp(1309): warning C4101: 'startnodecoord' : unreferenced local variable
+PMBody.cpp(1305): warning C4101: 'firstnode' : unreferenced local variable
+PMBody.cpp(1303): warning C4101: 'geo' : unreferenced local variable
+PMBody.cpp(1304): warning C4101: 'curredge' : unreferenced local variable
+PMBody.cpp(1313): warning C4101: 'tempnormal' : unreferenced local variable
+PMBody.cpp(1308): warning C4101: 'currnode' : unreferenced local variable
+PMBody.cpp(1587): warning C4018: '<' : signed/unsigned mismatch
+PMBody.cpp(1836): warning C4018: '>' : signed/unsigned mismatch
+PMBody.cpp(2186): warning C4018: '<' : signed/unsigned mismatch
+PMBody.cpp(2238): warning C4018: '<' : signed/unsigned mismatch
+PMBody.cpp(2162): warning C4101: 'vmesh' : unreferenced local variable
+PMBody.cpp(2164): warning C4101: 'vnode' : unreferenced local variable
+PMBody.cpp(2837): warning C4101: 'geo' : unreferenced local variable
+PMBody.cpp(3185): warning C4101: 'p2' : unreferenced local variable
+PMBody.cpp(3189): warning C4101: 'newtempedge' : unreferenced local variable
+PMBody.cpp(3185): warning C4101: 'p1' : unreferenced local variable
+PMBody.cpp(3177): warning C4101: 'edge' : unreferenced local variable
+  Generating code
+  Finished generating code
+  LDNIcuda.vcxproj -> D:\Debbie\GitHub\LDNIsource\LDNI Source\Release\LDNIcuda.exe
