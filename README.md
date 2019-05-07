@@ -21,6 +21,9 @@ Features
     - Generate stencil images for SLA
 
 ### [Old Project page](http://ldnibasedsolidmodeling.sourceforge.net/) | [Youtube 1](https://youtu.be/G75mS1VGqx0) | [Youtube 2](https://youtu.be/go3MxEF7cOs)
+    
+## Dependencies
+* CUDA 9.0
 
 ## Usage
 |   | Operation     | Description          |
