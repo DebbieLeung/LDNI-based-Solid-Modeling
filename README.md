@@ -2,17 +2,23 @@
 
 This project provides a set of solid modeling tools which aims to help processing 3D objects with complex topology and geometry that are widely used in many industrial applications (e.g., microstructure design and manufacturing, biomedical products and applications, jewelry products, reverse engineering).
 
-<img src="http://ldnibasedsolidmodeling.sourceforge.net/image/Mickey%20intersect%20with%20scaffold.jpg" width="256" height="256">
-
+<p float="middle">
+  <img src="http://ldnibasedsolidmodeling.sourceforge.net/image/Mickey%20intersect%20with%20scaffold.jpg" width="100" />
+  <img src="http://ldnibasedsolidmodeling.sourceforge.net/image/bunny_dragon_toolpath.jpg" width="100" /> 
+  <img src="http://ldnibasedsolidmodeling.sourceforge.net/image/bunny_dragon_toolpath_1.jpg" width="100" />
+</p>
 
 The system is completely GPU-based and heavily based on an implicit representation named LDNI.
 
 Features
-- Boolean Operations
+- Input/Output : Obj files
+- Boolean Operations - Union, Intersection and Substraction
 - Offset
 - Scaffold
-- Super Union
+- Super Union - union multiple meshes in one operation
 - 3D Printing
+    - Generate tool path and supporting files for FDM
+    - Generate stencil images for SLA
 
 ### [Old Project page](http://ldnibasedsolidmodeling.sourceforge.net/) | [Youtube](https://youtu.be/G75mS1VGqx0)
 
